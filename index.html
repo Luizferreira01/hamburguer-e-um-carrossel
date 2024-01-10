@@ -74,51 +74,51 @@
                     Câmbio automático, 4 portas, vidros e travas elétricas
                 </p>
                 <div class="price">
-                    <strong>R$ 75.000,00</strong>
+                    <strong>R$ 100.000,00</strong>
                 </div>
                 <button type="button">Tenho Interesse</button>
             </li>
             <li class="item-central">
                 <img src="./images/fusca.png" alt="">
-                <h3>Carro Bmw</h3>
+                <h3>Fusca</h3>
                 <p>
-                    Câmbio automático, 4 portas, vidros e travas elétricas
+                    Câmbio manual, 2 portas, raridade.
                 </p>
                 <div class="price">
-                    <strong>R$ 75.000,00</strong>
+                    <strong>R$ 100.000,00</strong>
                 </div>
                 <button type="button">Tenho Interesse</button>
             </li>
             <li>
                 <img src="./images/moto-bmw.png" alt="">
-                <h3>Carro Bmw</h3>
+                <h3>Moto Bmw</h3>
                 <p>
-                    Câmbio automático, 4 portas, vidros e travas elétricas
+                    O câmbio é de seis marchas, A K 1300 S tem motor de 1.293 cilindradas.
                 </p>
                 <div class="price">
-                    <strong>R$ 75.000,00</strong>
+                    <strong>R$ 100.000,00</strong>
                 </div>
                 <button type="button">Tenho Interesse</button>
             </li>
             <li>
                 <img src="./images/moto-bmw.png" alt="">
-                <h3>Carro Bmw</h3>
+                <h3>Moto Bmw</h3>
                 <p>
-                    Câmbio automático, 4 portas, vidros e travas elétricas
+                    O câmbio é de seis marchas, A K 1300 S tem motor de 1.293 cilindradas.
                 </p>
                 <div class="price">
-                    <strong>R$ 75.000,00</strong>
+                    <strong>R$ 100.000,00</strong>
                 </div>
                 <button type="button">Tenho Interesse</button>
             </li>
             <li class="item-central" >
-                <img src="./images/moto-bmw.png" alt="">
-                <h3>Carro Bmw</h3>
+                <img src="./images/fusca.png" alt="">
+                <h3>fusca</h3>
                 <p>
-                    Câmbio automático, 4 portas, vidros e travas elétricas
+                    Câmbio manual, 2 portas, raridade.
                 </p>
                 <div class="price">
-                    <strong>R$ 75.000,00</strong>
+                    <strong>R$ 100.000,00</strong>
                 </div>
                 <button type="button">Tenho Interesse</button>
             </li>
@@ -144,9 +144,9 @@
             </li>
             <li class="item-central">
                 <img src="./images/fusca.png" alt="">
-                <h3>Carro Bmw</h3>
+                <h3>fusca</h3>
                 <p>
-                    Câmbio automático, 4 portas, vidros e travas elétricas
+                    Câmbio manual, 2 portas, raridade.
                 </p>
                 <div class="price">
                     <del>100.000,00</del>
@@ -156,9 +156,9 @@
             </li>
             <li>
                 <img src="./images/moto-bmw.png" alt="">
-                <h3>Carro Bmw</h3>
+                <h3>Moto Bmw</h3>
                 <p>
-                    Câmbio automático, 4 portas, vidros e travas elétricas
+                    O câmbio é de seis marchas, A K 1300 S tem motor de 1.293 cilindradas.
                 </p>
                 <div class="price">
                     <del>100.000,00</del>
@@ -194,29 +194,29 @@
     </div>
 </section>
 
-<section>
+<section id="contato" >
     <div class="container" >
         <h2>Entre Em Contato</h2>
         <form>
             <div class="form-campo">
                 <label for="nome">Nome</label>
-                <input type="text" id="nome">
+                <input type="text" id="nome" name="nome" >
             </div>
             <div class="form-campo">
                 <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone">
+                <input type="tel" id="telefone" name="telefone" >
             </div>
             <div class="form-campo">
                 <label for="email">E-mail</label>
-                <input type="email" id="email">
+                <input type="email" id="email" name="email" >
             </div>
             <div class="form-campo">
                 <label for="veiculo-interesse">Veiculo de Interesse</label>
-                <input type="text" id="veiculo-interesse">
+                <input type="text" id="veiculo-interesse" name="veiculoDeInteresse" >
             </div>
             <div class="form-campo">
                 <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem"></textarea>
+                <textarea id="mensagem" name="mensagem" ></textarea>
             </div>
             <button type="submit">Enviar</button>
         </form>
@@ -247,22 +247,12 @@
 
     </div>
 </footer>
-
-
-
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('#carousel-imagens').slick({
-                autoplay: true,
-            });
-
-            $('.menu-hamburguer').click(function(){
-                $('nav').slideToggle();
-            })
-        })
-    </script>
+    <script src="/js/jquery.mask.min.js"></script>
+    <script src="/js/jquery.Validate.min.js"></script>
+    <script src="/js/messages_pt_br.in.js"></script>
+    <script src="/js/main.js" ></script>
 </body>
 </html>
